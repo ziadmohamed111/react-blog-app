@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+.header {
+    background: #2d334a;
+    border-bottom: 1rem solid #859b93;
+    margin-bottom: 5rem;
+    color: #fff;
+    padding: 2rem 0rem;
+    height: 11rem;
+    font-family: 'Comfortaa', cursive;
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &-side {
+        display: flex;
+        padding: 1rem 1rem;
+        align-items: center;
+        align-self: stretch;
+        & > :not(:first-child){
+            margin-left: 5rem;
+        }
+    }
+}

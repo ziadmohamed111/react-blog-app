@@ -1,0 +1,21 @@
+.filters{
+    input{
+        padding: .8rem 2rem;
+        width: 22rem;
+        border: none;
+        border-radius: 2rem;
+        margin: 0 2rem;
+        &:focus{
+            outline: none;
+        }
+    }
+    select{
+        padding: .8rem 2rem;
+        border-radius: 2rem;
+        border: 3px solid #2d334a;
+        transform: translateX(-5rem);
+        &:focus{
+            outline: none;
+        }
+    }
+}

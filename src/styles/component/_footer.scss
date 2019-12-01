@@ -1,0 +1,43 @@
+.footer{
+    height: 12rem;
+    background-color: #2D334A;
+    .container{
+        position: relative;
+        height: 100%;
+    }
+
+    &__aside{
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        color: #FFFFFF;
+
+        a{
+            color: inherit;
+            text-decoration: none;
+            
+            &:not(:first-child) {
+                margin-left: 2rem;
+            }
+        }
+        & > a > svg{
+            font-size: 3rem;
+        }
+    }
+
+    &__container {
+        color:#fff;
+        display: flex;
+        flex-direction: column;
+        h3{
+            padding: 2rem 0;
+            font-family: 'Comfortaa', cursive;
+            letter-spacing: .3rem;
+            font-size: 3rem;
+        }
+        p{
+            position: absolute;
+            bottom: 2rem;
+        }
+    }
+}
