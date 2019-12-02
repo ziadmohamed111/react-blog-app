@@ -63,7 +63,7 @@ export default class BlogForm extends React.Component {
                 <form onSubmit={this.onSubmit}>
                     { !!this.state.error == true ? <p> {this.state.error} </p> : undefined}
 
-                    <input class="input" 
+                    <input className="input" 
                         type="text" 
                         autoFocus 
                         placeholder="title" 
