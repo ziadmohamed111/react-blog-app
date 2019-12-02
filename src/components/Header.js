@@ -1,5 +1,5 @@
 import React from 'react';
-import Filters from "./filters"
+import Filters from "./Filters"
 import {Link} from "react-router-dom"
 import { connect } from "react-redux"
 import {startLogout , startLogin} from "../actions/auth"
